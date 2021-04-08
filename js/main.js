@@ -30,7 +30,7 @@ setInterval(function () {
     document.querySelector('#big-upgrade-count').innerHTML = bigUpgradeCount;
     document.querySelector('#small-upgrade-price').innerHTML = smallUpgradePrice.toFixed(0);
     document.querySelector('#big-upgrade-price').innerHTML = bigUpgradePrice.toFixed(0);
-}, 1);
+}, 10);
 
 
 document.getElementById('click-me-btn').addEventListener('click', function () {
